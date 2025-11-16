@@ -11,11 +11,11 @@ library(shinystan)
 
 ##### flat and conjugate prior model #####
 # see file compois_conjugate.stan for details
-cmpmodel  <- stan_model(file = 'compois_conjugate.stan')
+cmpmodel  <- stan_model(file = 'Code/compois_conjugate.stan')
 
 ##### jeffreys' prior model #####
 # see file compois_jeffreys.stan for details
-cmpmodel_j  <- stan_model(file = 'compois_jeffreys.stan')
+cmpmodel_j  <- stan_model(file = 'Code/compois_jeffreys.stan')
 
 #### diagnostic functions ####
 

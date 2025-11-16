@@ -20,7 +20,7 @@ hungarian   <- c(rep(1,1421), rep(2,12333), rep(3,20711), rep(4,15590),
 slovak      <- c(rep(1,7), rep(2,33), rep(3,49), rep(4,22), rep(5,6))
 
 #### load code ####
-source('nicompr.R')
+source('Code/nicompr.R')
 options(mc.cores = parallel::detectCores())
 
 #### set up priors ####
